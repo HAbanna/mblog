@@ -14,12 +14,12 @@
   }
   
   .login__message > h2 {
-    font-size: 100px;
+    font-size: 40px;
     text-align: center;
   }
   
-  .login__message > h1 {
-    font-size: 70px;
+  .login__message > h3 {
+    font-size: 50px;
     width: 70%;
     line-height: 1em;
     margin: 10px auto;

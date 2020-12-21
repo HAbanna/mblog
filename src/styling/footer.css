@@ -1,0 +1,10 @@
+.footerarea__top{
+    background-color:  #354558;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

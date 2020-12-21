@@ -19,11 +19,10 @@ const Homepage = () => {
         <div className="home_page" style={{ display: isSignedIn ? "none" : "" }} >
              {!isSignedIn && ( 
              <div className="login__message">
-               <h2>📗</h2>
-              <h1>A Readers favourite place!</h1>
+               <h2>📖</h2>
+              <h3><bold>“The everyday kindness of the back roads more than makes up for the acts of greed in the headlines”</bold></h3>
             <p>
-            We provide high quality online resource for reading blogs. Just sign
-            up and start reading some quality blogs.
+            For websites with a primary focus on delivering droves of content to visitors (think of any major news site or blog)
            </p>
            <GoogleLogin 
              clientId="786395167785-3c8vdob2p6bu16tndqor0mlrj1msv699.apps.googleusercontent.com"
